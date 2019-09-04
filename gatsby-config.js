@@ -1,39 +1,36 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://frhumphries.com'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'Blog by John Doe',
+    title: 'Priestly Peregrinations',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-    copyright: '© All rights reserved.',
-    disqusShortname: '',
+      'The Wonderings and Wanderings of a Parish Priest in the Rural US',
+    copyright:
+      'Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.',
+    disqusShortname: 'frhumphries',
     menu: [
       {
         label: 'Articles',
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'About Me',
         path: '/about/',
-      },
-      {
-        label: 'Contact me',
-        path: '/contact/',
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Fr. Ryan Humphries',
+      email: 'frhumphries@gmail.com',
+      facebook: 'frhumphries',
+      twitter: 'frhumphries',
+      instagram: 'frryan',
+      github: 'frhumphries',
+      rss: 'http://www.frhumphries.com/rss.xml',
     },
   },
   plugins: [

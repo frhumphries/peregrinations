@@ -14,8 +14,8 @@ class CategoryTemplate extends React.Component {
       <Layout>
         <div>
           <Helmet title={`${category} - ${title}`} />
-          <Sidebar {...this.props} />
           <CategoryTemplateDetails {...this.props} />
+          <Sidebar {...this.props} />
         </div>
       </Layout>
     )
@@ -38,11 +38,11 @@ export const pageQuery = graphql`
         author {
           name
           email
-          telegram
+          instagram
+          facebook
           twitter
           github
           rss
-          vk
         }
       }
     }
