@@ -54,6 +54,14 @@ class Sidebar extends React.Component {
           <div>
             <Menu data={menu} />
             <Links data={author} />
+            <p>
+              <a
+                className="sidebar__copyright"
+                href="https://www.paypal.com/paypalme2/frhumphries"
+              >
+                Donate
+              </a>
+            </p>
             <p className="sidebar__copyright">{copyright}</p>
           </div>
         </div>
